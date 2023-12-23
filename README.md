@@ -38,7 +38,7 @@ This template comes with the following features:
 
 ### Note pour plus tard
 
--faire un bouton pour afficher les jours et les heur ou seulement les heur 
--faire en sorte que l'utilisateur peux changer la date de fin du compte a reboure 
--faire en sorte que l'utilisateur peux changer le texte au dessus du compte a reboure
--faire en sorte que quand il et a 0 il affiche le texte remplie part l'utilisateur 
+- faire un bouton pour afficher les jours et les heur ou seulement les heur 
+- faire en sorte que l'utilisateur peux changer la date de fin du compte a reboure 
+- faire en sorte que l'utilisateur peux changer le texte au dessus du compte a reboure
+- faire en sorte que quand il et a 0 il affiche le texte remplie part l'utilisateur 
