@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import classes from './Noel.module.css';
 
 export const Noel = () => {
-  const [day, setDay] = useState<string>('00');
+  const [day, setDay] = useState<string>('00'); //test
   const [hour, setHour] = useState<string>('00');
   const [minute, setMinute] = useState<string>('00');
   const [second, setSecond] = useState<string>('00');
