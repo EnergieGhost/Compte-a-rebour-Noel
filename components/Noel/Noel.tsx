@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import classes from './Noel.module.css';
 
 export const Noel = () => {
+  const [day, setDay] = useState<string>('00');
   const [hour, setHour] = useState<string>('00');
   const [minute, setMinute] = useState<string>('00');
   const [second, setSecond] = useState<string>('00');
@@ -18,10 +19,12 @@ export const Noel = () => {
   const calcul = () => {
     const today = new Date();
     const difference = noelDate.getTime() - today.getTime();
+    const days = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
     const seconds = Math.floor((difference % (1000 * 60)) / 1000);
 
+    setHour(formatValue(days));
     setHour(formatValue(hours));
     setMinute(formatValue(minutes));
     setSecond(formatValue(seconds));
@@ -40,7 +43,7 @@ export const Noel = () => {
       <div className={classes.container}>
         <h1 className={classes.h1}>Compte à rebours avant Noel</h1>
         <Text className={classes.label}>
-          {hour}:{minute}:{second}
+          {day}d{hour}:{minute}:{second}
         </Text>
         <h2 className={classes.h1}>Dev by Twelve57 and Thomas00D</h2>
       </div>
