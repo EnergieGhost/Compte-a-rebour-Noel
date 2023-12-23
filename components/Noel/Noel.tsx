@@ -43,7 +43,7 @@ export const Noel = () => {
       <div className={classes.container}>
         <h1 className={classes.h1}>Compte à rebours avant Noel</h1>
         <Text className={classes.label}>
-          {day}Jour et {hour}:{minute}:{second}
+          {day} Jour et {hour}:{minute}:{second}
         </Text>
         <h2 className={classes.h1}>Dev by Twelve57 and Thomas00D</h2>
       </div>
