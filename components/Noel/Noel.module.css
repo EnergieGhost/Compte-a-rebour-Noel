@@ -1,12 +1,12 @@
 .label {
     text-align: center;
-    font-size: 150px;
+    font-size: 100px;
     color: white;
     font-family: Saira Stencil One;
 }
 
 .body {
-    background-color: rgb(0, 0, 0);
+    background-color: #36413E;
     height: 100%;
 }
 
@@ -20,11 +20,18 @@
 }
 
 .container {
-    background-color: #36413E;
-    height: 95%;
-    position: absolute;
-    top: 2.5%;
-    width: 100%;
+    width: 80%;
+    margin: auto;
+    
+}
+
+.h2 {
+    font-family: Silkscreen;
+    text-align: center;
+    font-size: 34px;
+    /* margin: 0;
+    padding: 5px; */
+    color: white;
 }
 
 

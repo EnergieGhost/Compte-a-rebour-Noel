@@ -1,6 +1,7 @@
 import { Text } from '@mantine/core';
 import { useEffect, useState } from 'react';
 import classes from './Noel.module.css';
+import { text } from 'stream/consumers';
 
 export const Noel = () => {
   const [day, setDay] = useState<string>('00'); //test
@@ -42,10 +43,11 @@ export const Noel = () => {
     <div className={classes.body}>
       <div className={classes.container}>
         <h1 className={classes.h1}>Compte à rebours avant Noel</h1>
+        <Text className={classes.label}> {day} Jour</Text>
         <Text className={classes.label}>
-          {day} Jour et {hour}:{minute}:{second}
+          {hour}:{minute}:{second}
         </Text>
-        <h2 className={classes.h1}>Dev by Twelve57 and Thomas00D</h2>
+        <h2 className={classes.h2}>Dev by Twelve57 and Thomas00D</h2>
       </div>
     </div>
   );
