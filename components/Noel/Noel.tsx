@@ -8,7 +8,7 @@ export const Noel = () => {
   const [hour, setHour] = useState<string>('00');
   const [minute, setMinute] = useState<string>('00');
   const [second, setSecond] = useState<string>('00');
-  const [noelDate] = useState<Date>(new Date('December 25 , 2023'));
+  const [noelDate] = useState<Date>(new Date('January 1 , 2024'));
 
   const formatValue = (value: number): string => {
     if (value < 10) {
