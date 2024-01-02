@@ -1,0 +1,34 @@
+.body {
+    background-color: #183153;
+    height: 100%;
+}
+
+/* Presentation 1 */
+.label2{
+    text-align: center;
+    font-size: 60px;
+    color: #183153;
+    font-family: Saira Stencil One;
+}
+
+.formrectangle2{
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    padding: 0px;
+    background-color: white;
+    border-radius: 20%;
+}
+
+.label1{
+    text-align: center;
+    font-size: 40px;
+    color: #ff0202;
+    font-family: Saira Stencil One;
+}
+
+.miseenform{
+    display: flex;
+}
+
+/* Presentation 2 */

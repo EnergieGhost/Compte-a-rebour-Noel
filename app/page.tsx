@@ -1,11 +1,7 @@
 'use client';
-
-import { Noel } from '@/components/Noel/Noel';
+import '@mantine/dates/styles.css';
+import { Noel } from '@/components/Welcome/Welcome';
 
 export default function HomePage() {
-  return (
-    <>
-      <Noel />
-    </>
-  );
+  return <Noel />;
 }
